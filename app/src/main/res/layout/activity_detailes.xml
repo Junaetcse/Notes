@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detailes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+    android:background="@drawable/d"
+    tools:context="com.example.user.notes.DetailesActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textColor="#FF33BF"
+        android:padding="5dp"
+        android:id="@+id/viewTitle"
+        android:textSize="25sp"
+android:layout_weight="3"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9/12/2017"
+        android:textSize="15sp"
+        android:id="@+id/viewDate"
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:textColor="#000"
+        />
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject"
+        android:textColor="#6033FF"
+        android:id="@+id/viewSubject"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:padding="8dp"
+
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:layout_marginTop="20dp"
+        >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Simple Article is a minimal Wordpress Theme designed for blogger. ... Sticky post, Social share in each post, many post formats such as Video, Audio, Soundcloud(audio), Gallery as grid or slider or column, Quote, Aside? ... - GoodLayers Importer – With just few steps, you can turn your ..."
+               android:textSize="20sp"
+                android:textColor="#FF336C"
+                android:id="@+id/viewDetails"
+                android:padding="8dp"
+
+                />
+
+    </ScrollView>
+
+</LinearLayout>
